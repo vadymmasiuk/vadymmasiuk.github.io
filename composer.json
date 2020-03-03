@@ -1,0 +1,19 @@
+{
+    "name": "vadymmasiuk/cms",
+    "description": "Magico CMS",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vadym Masiuk",
+            "email": "vadym.masiuk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4":{
+            "VadymMasiuk\\CMS\\": "src/"
+        }
+    }
+}
